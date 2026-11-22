@@ -79,7 +79,7 @@ def app(environ, start_response):
           <label>身長(cm): <input type="number" id="height" name="height" step="any" min="50" max="300" required></label><br><br>
           <label>体重(kg): <input type="number" id="weight" name="weight" step="any" min="1" max="500" required></label><br><br>
           <button type="submit">計算</button>
-          <button type="button" onclick="clearForm()">クリア</button>
+          <button type="button" onclick="clearForm()">入力をリセット</button>
         </form>
         <div style="margin-top:20px;">{result}</div>
       </body>
